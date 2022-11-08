@@ -1,0 +1,12 @@
+server:
+  port: 8082
+
+spring:
+  data:
+    mongodb:
+      database: test
+      uri: "mongodb://localhost/fake-mongo"
+
+application:
+  fdaApi:
+    url: "http://localhost/fake-fdaapi"

@@ -1,0 +1,12 @@
+server:
+  port: 8080
+
+spring:
+  data:
+    mongodb:
+      database: test
+      uri: TBD
+
+application:
+  fdaApi:
+    url: "https://api.fda.gov/drug/drugsfda.json"
